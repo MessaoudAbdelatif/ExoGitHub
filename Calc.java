@@ -11,6 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 //@WebServlet(name = "Calc" , urlPatterns = {"/calc"})
 public class Calc extends HttpServlet {
 
+  public void Controller(){            /* <-----      Ajouté un constructeur !! */
+
+  }
+
   protected void doPost(HttpServletRequest request,
       HttpServletResponse response)
       throws ServletException, IOException {
