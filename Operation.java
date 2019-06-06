@@ -9,6 +9,8 @@ public class Operation {
   private int valeur2;
   private String choixOperation;
   private String resultat;
+  private String git;             // Ajouté deux attribues git & github !!
+  private String gitHub;
 
 
   public String getResultat() {
